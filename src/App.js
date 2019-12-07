@@ -8,7 +8,7 @@ export default class App extends Component {
     profiles: []
   };
   addNewProfile = (profileData) => {
-    console.log('App', profileData);
+  //  console.log('App', profileData);
     this.setState(prevState => ({
       profiles: [...prevState.profiles, profileData]
     }));
