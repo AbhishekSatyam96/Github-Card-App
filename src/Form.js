@@ -10,7 +10,7 @@ export default class Form extends Component {
     handleSubmit = async (e) => {
 
         e.preventDefault();
-        console.log("working...");
+       // console.log("working...");
         const resp = await fetch(`https://api.github.com/users/${this.state.userName}`)
         const data = await resp.json();
        // const pass = data.html_url;
